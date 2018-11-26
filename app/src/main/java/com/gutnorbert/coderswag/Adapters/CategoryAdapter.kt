@@ -12,7 +12,6 @@ import com.gutnorbert.coderswag.R
 import com.gutnorbert.coderswag.R.id.categoryImage
 
 class CategoryAdapter(val context: Context, val categories: List<Category>) : BaseAdapter(){
-
     override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
         val categoryView: View
         val holder: ViewHolder
